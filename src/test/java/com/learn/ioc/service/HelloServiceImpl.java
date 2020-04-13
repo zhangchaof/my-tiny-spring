@@ -5,10 +5,9 @@ package com.learn.ioc.service;
  * @Description:
  * @date 2020/4/13 10:04
  */
-public class ChaoHelloServiceImpl implements HelloService {
+public class HelloServiceImpl {
 
-    @Override
     public void hello() {
-        System.out.println("hello ChaoHelloServiceImpl");
+        System.out.println("hello HelloServiceImpl");
     }
 }
